@@ -21,8 +21,8 @@ public class US01_step_def {
     Faker faker = new Faker();
 
 
-    @Given("I am on {string} Page")
-    public void i_am_on_page(String string) {
+    @Given("I am on Authorization Page")
+    public void i_am_on_authorization_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 
     }
@@ -44,8 +44,17 @@ public class US01_step_def {
         String actualURL =Driver.getDriver().getCurrentUrl();
         Assert.assertTrue("helpdesk is not appeared on URL",actualURL.contains(expectedURL));   // verification
 
-
     }
+
+
+
+    @When("I input helpdesk correct username and password")
+    public void i_input_helpdesk_correct_username_and_password() {
+        loginPage.userLogin.sendKeys(ConfigurationReader.getProperty("userLogin2"));
+        loginPage.userPassword.sendKeys(ConfigurationReader.getProperty("userPassword2"));
+        loginPage.loginBtn.click();
+    }
+
 
 
 
