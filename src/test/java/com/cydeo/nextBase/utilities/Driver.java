@@ -1,4 +1,4 @@
-package com.nextBase.utilities;
+package com.cydeo.nextBase.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

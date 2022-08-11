@@ -1,4 +1,4 @@
-package com.nextBase.utilities;
+package com.cydeo.nextBase.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

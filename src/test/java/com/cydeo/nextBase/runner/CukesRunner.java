@@ -1,4 +1,4 @@
-package com.nextBase.runner;
+package com.cydeo.nextBase.runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         } ,
         features = "src/test/resources/features" , // from content
-        glue = "com/library2/step_definitions" , //from source root
+        glue = "com/cydeo/nextBase/step_definitions" , //from source root
 
-        dryRun = true
+        dryRun = false
         ,
         tags = "@wip"
         ,

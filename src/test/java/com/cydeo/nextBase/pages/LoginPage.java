@@ -1,7 +1,9 @@
-package com.nextBase.pages;
+package com.cydeo.nextBase.pages;
 
+import com.cydeo.nextBase.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
@@ -12,6 +14,7 @@ public class LoginPage {
         public class Login2NextbasecrmAuthPage {
 
         }
+
         //When I input helpdesk correct username
         @FindBy(xpath = "//input[@type='text']")
         public WebElement userLogin;
@@ -24,7 +27,8 @@ public class LoginPage {
         @FindBy(xpath = "//input[@type='submit']")
         public WebElement loginBtn;
 
-//public nextBaseCRM () {
-//PageFactory.initElements(Driver, WebDriver Driver this);
-    }
+        public LoginPage() {
+                PageFactory.initElements(Driver.getDriver(), this);
+        }
+}
 
