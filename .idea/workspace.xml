@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84b26571-cb3d-445f-bfcb-8aebda6a7a06" name="Changes" comment="passed!">
+    <list default="true" id="84b26571-cb3d-445f-bfcb-8aebda6a7a06" name="Changes" comment="passed!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/nextBase/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/nextBase/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/nextBase/step_definitions/US01_step_def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/nextBase/step_definitions/US01_step_def.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US01.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660155158296</updated>
       <workItem from="1660155159460" duration="9230000" />
-      <workItem from="1660229543297" duration="10084000" />
+      <workItem from="1660229543297" duration="10847000" />
+      <workItem from="1660323987737" duration="1000" />
+      <workItem from="1660423525184" duration="4657000" />
+      <workItem from="1661195821542" duration="1498000" />
+      <workItem from="1661636797622" duration="4293000" />
+      <workItem from="1661643830024" duration="6097000" />
+      <workItem from="1661695477092" duration="3186000" />
+      <workItem from="1661973193202" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="User Story 01">
       <created>1660158673376</created>
@@ -116,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660234994188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="passed!!">
+      <created>1660255688934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660255688934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="User Story 01" />
     <MESSAGE value="passed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed!" />
+    <MESSAGE value="passed!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed!!" />
   </component>
 </project>

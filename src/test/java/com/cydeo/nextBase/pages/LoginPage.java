@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-//Given I am on "Authorization" Page
+        //Given I am on "Authorization" Page
 
 
         // https://login2.nextbasecrm.com/auth/?backurl=%2Fstream%2F
@@ -31,4 +31,6 @@ public class LoginPage {
                 PageFactory.initElements(Driver.getDriver(), this);
         }
 }
+
+
 
